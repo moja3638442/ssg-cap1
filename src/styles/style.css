@@ -296,7 +296,7 @@ svg {
     .photo figure {
         height: 367px;
     }
-    
+
 	.photo img {
 		height: 367px;
 	}
@@ -308,7 +308,7 @@ svg {
 	padding-top: 60px;
 	padding-bottom: 60px;
 	color: #fff;
-    background-image: url(/images/pattern.jpg);
+    background-image: none;
     background-size: cover;
     background-color: #477294;
 }
@@ -328,6 +328,23 @@ svg {
 	font-size: 14px;
 }
 
+.footer {
+    position: relative;
+}
+
+.footer .container {
+    position: relative;
+    z-index: 10;
+}
+
+.footer .back {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
 @media (min-width: 768px) {
 	.footer {
 		padding-top: 120px;
